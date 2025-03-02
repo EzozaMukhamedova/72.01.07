@@ -9,7 +9,7 @@
 // console.log(KniChiqarish(8, 3));
 
 // For2
-// function printRangeAndCount(a: number, b: number): void {
+// function Hisob(a: number, b: number): void {
 //   let count = 0;
 //   if (a > b) {
 //     [a, b] = [b, a];
@@ -21,10 +21,10 @@
 //   console.log(`Jami sonlar: ${count}`);
 // }
 
-// printRangeAndCount(8, 3);
+// Hisob(8, 3);
 
 //   For3
-// function printRangeInDescendingOrder(a: number, b: number): void {
+// function kamayishTartibida(a: number, b: number): void {
 //   let count = 0;
 //   if (a > b) {
 //     [a, b] = [b, a];
@@ -36,7 +36,7 @@
 //   console.log(`Jami sonlar: ${count}`);
 // }
 
-// printRangeInDescendingOrder(9, 3);
+// kamayishTartibida(9, 3);
 
 //   For4.
 // function narx(pricePerKg: number): void {
@@ -44,7 +44,6 @@
 //     console.log(`${kg} kg konfet narxi: ${pricePerKg * kg}`);
 //   }
 // }
-
 // narx(5);
 
 //   For5

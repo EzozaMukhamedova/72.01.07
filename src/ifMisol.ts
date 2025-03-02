@@ -1,7 +1,7 @@
 // IF Misollari
 
 // #2.
-// function adjustAndDisplayNumber(num: number): void {
+// function raqam(num: number): void {
 //   if (num > 0) {
 //     console.log(num + 1);
 //   } else {
@@ -9,12 +9,12 @@
 //   }
 // }
 
-// adjustAndDisplayNumber(5);
-// adjustAndDisplayNumber(-1);
-// adjustAndDisplayNumber(0);
+// raqam(5);
+// raqam(-1);
+// raqam(0);
 
 // #3
-// function adjustNumber(num: number): number {
+// function raqamlar(num: number): number {
 //   if (num > 0) {
 //     return num + 1;
 //   } else if (num < 0) {
@@ -23,12 +23,12 @@
 //     return 10;
 //   }
 // }
-// console.log(adjustNumber(5));
-// console.log(adjustNumber(-3));
-// console.log(adjustNumber(0));
+// console.log(raqamlar(5));
+// console.log(raqamlar(-3));
+// console.log(raqamlar(0));
 
-// #4. Uchta button son bergilgan. Shu sonlar orasidan nechta musbat son borligini aniqlaydi.
-// function countPositiveNumbers(a: number, b: number, c: number): number {
+// #4.
+// function musbatSon(a: number, b: number, c: number): number {
 //   let count = 0;
 //   if (a > 0) count++;
 //   if (b > 0) count++;
@@ -36,12 +36,12 @@
 //   return count;
 // }
 
-// console.log(countPositiveNumbers(5, -1, 3));
-// console.log(countPositiveNumbers(-3, 1, 2));
-// console.log(countPositiveNumbers(0, -2, -3));
+// console.log(musbatSon(5, -1, 3));
+// console.log(musbatSon(-3, 1, 2));
+// console.log(musbatSon(0, -2, -3));
 
 // #5.
-// function countNumbers(
+// function countSon(
 //   a: number,
 //   b: number,
 //   c: number
@@ -56,29 +56,29 @@
 //   else if (c < 0) manfiy++;
 //   return { musbat, manfiy };
 // }
-// console.log(countNumbers(8, 9, -3));
+// console.log(countSon(8, 9, -3));
 
 // #6.
-// function findMax(a: number, b: number): number {
+// function Max(a: number, b: number): number {
 //   return Math.max(a, b);
 // }
-// console.log(findMax(8, 3));
+// console.log(Max(8, 3));
 
 // #7.
-// function findMinIndex(a: number, b: number): number {
+// function MinIndex(a: number, b: number): number {
 //   return a < b ? 1 : 2;
 // }
-// console.log(findMinIndex(8, 3));
+// console.log(MinIndex(8, 3));
 
 // #8.
-// function sortDescending(a: number, b: number): number[] {
+// function saralash(a: number, b: number): number[] {
 //   if (a > b) {
 //     return [a, b];
 //   } else {
 //     return [b, a];
 //   }
 // }
-// console.log(sortDescending(1, 3));
+// console.log(saralash(1, 3));
 
 // #9.
 // function Qiymat(a: number, b: number): { A: number; B: number } {
@@ -90,10 +90,10 @@
 // console.log(Qiymat(3, 3));
 
 // #10.
-// function sumOrZero(a: number, b: number): number {
+// function yigindiYokiNol(a: number, b: number): number {
 //   return a !== b ? a + b : 0;
 // }
-// console.log(sumOrZero(6, 6));
+// console.log(yigindiYokiNol(6, 6));
 // Ikkinchi usul
 // function yigindiYokiNol(a: number, b: number): [number, number] {
 //   if (a !== b) {
